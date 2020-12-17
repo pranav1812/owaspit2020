@@ -1,0 +1,100 @@
+ 2179  git status
+ 2180  git checkout master 
+ 2181  git branch
+ 2182  git log --oneline
+ 2183  git reset hard f3de1c7
+ 2184  git log --oneline
+ 2185  git reset --hard f3de1c7
+ 2186  git log --oneline
+ 2187  git status
+ 2188  cd ..
+ 2189  git status
+ 2190  clear
+ 2191  ls
+ 2192  mkdir owasp_git_2020
+ 2193  cd owasp_git_2020/
+ 2194  git init
+ 2195  ls
+ 2196  ls -a
+ 2197  cd .git/
+ 2198  ls
+ 2199  cd ..
+ 2200  clea
+ 2201  clear
+ 2202  touch demo.txt
+ 2203  ls
+ 2204  cat demo.txt
+ 2205  git status
+ 2206  git add .
+ 2207  git status
+ 2208  git commit -m "1st commit"
+ 2209  git status
+ 2210  git log 
+ 2211  git log --oneline
+ 2212  git remote add origin https://github.com/pranav1812/owaspit2020.git
+ 2213  git remote -v
+ 2214  git push
+ 2215  git push --set-upstream origin master
+ 2216  history | tail -n 20
+ 2217  clear
+ 2218  ls
+ 2219  git rm demo.txt~
+ 2220  ls
+ 2221  cat >> demo.txt 
+ 2222  cat demo.txt 
+ 2223  git status
+ 2224  git add demo.txt 
+ 2225  git status
+ 2226  git commit -m "2nd commit"
+ 2227  git push
+ 2228  git log
+ 2229  git branch -a
+ 2230  git branch
+ 2231  git checkout -b "branch1"
+ 2232  git branch
+ 2233  touch demo2.txt
+ 2234  cat >> demo2
+ 2235  cat >> demo2.txt 
+ 2236  cat demo2.txt 
+ 2237  git add .
+ 2238  git commit -m "3rd commit"
+ 2239  git log --oneline
+ 2240  git checkout master 
+ 2241  git log --oneline
+ 2242  cat >>demo3.txt
+ 2243  cat demo3.txt 
+ 2244  git add . && git commit -m "4th commit"
+ 2245  git log --oneline
+ 2246  git branch
+ 2247  git merge branch1 
+ 2248  git log --oneline
+ 2249  git checkout a49f733
+ 2250  ls
+ 2251  git branch
+ 2252  git checkout master
+ 2253  ls
+ 2254  git log --oneline
+ 2255  git checkout -b hardReset
+ 2256  ls
+ 2257  git branch
+ 2258  git log --oneline
+ 2259  git reset --hard a49f733
+ 2260  git log --oneline
+ 2261  git checkout master 
+ 2262  git log --oneline
+ 2263  git push
+ 2264  git branch
+ 2265  git checkout branch1 
+ 2266  git push
+ 2267  git checkout hardReset 
+ 2268  git push
+ 2269  git push --set-upstream origin hardReset
+ 2270  clear
+ 2271  history | tail -n 100 > commands.txt
+ 2272  cat commands.txt 
+ 2273  git branch
+ 2274  git add .
+ 2275  git commit -m "commands"
+ 2276  git push
+ 2277  git checkout master 
+ 2278  history | tail -n 100 > commands.txt 
